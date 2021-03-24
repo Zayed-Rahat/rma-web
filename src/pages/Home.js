@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React,{} from 'react';
 import AboutUs from './AboutUs';
 import Activities from './Activities';
 import Contact from './Contact';

@@ -8,7 +8,7 @@ function Activities() {
         <div class="row">
             <div class="col-md-6">
                 <div>
-                    <img src="/ast/img/icon1.png" class="icon1"/>
+                    <img src="/ast/img/icon1.png" class="icon1" alt=""/>
                     <h2 class="icon1_h">RoboRace</h2>
                     <p class="icon1_p">We Present the biggest Robotic Competetion ‘RMA Roborace’ in Bangladesh. </p>
                 </div>
@@ -24,7 +24,7 @@ function Activities() {
             </div>
             <div class="col-md-5">
                 <div>
-                    <img src="/ast/img/icon2.png" class="icon3" />
+                    <img src="/ast/img/icon2.png" class="icon3" alt=""/>
                     <h2 class=" icon1_h">Success</h2>
                     <p class="icon1_p">We have plenty of success on renowned competetions and project shows both in
                         national and
