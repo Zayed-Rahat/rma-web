@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .fix {
+    overflow: hidden;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* 1st page background */
+  
+  .robot_page {
+    background-image: url('img/sfnoandoroidorobotuto-kabegami-2560x1600-12601_7.jpg');
+    background-repeat: no-repeat;
+    width: 100%px;
+    background-size: cover;
+    height: 855px;
+    background-position: center center;
+  }
+  
+  /* logo section */
+  
+  .logo {
+    background-image: url('img/logo.png');
+    width: 470px;
+    height: 155px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 60px;
+  }
+  .logo_p {
+    position: absolute;
+    font-family: Megatron;
+    color: white;
+    font-size: 16px;
+    margin-top: 77px;
+    margin-left: 143px;
+  }
+  
+  /* navbar section */
+  .navbar-toggler {
+    margin-top: 30px;
+    margin-right: 45px;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.01) !important;
+  }
+  .navbar ul {
+    margin-left: 65px;
+  }
+  .navbar ul li a {
+    color: white !important;
+    font-size: 14px;
+    font-family: Poppins-Bold;
+    margin-left: 15px;
+  }
+  .navbar ul li a:hover {
+    color: #81c6bc !important;
+  }
+  .navbar ul li a:active {
+    color: #81c6bc !important;
+    text-decoration: underline;
+  }
+  .navbar-toggler-icon {
+    color: white !important;
+  }
+  .navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 1);
+  }
+  .dropdown-menu {
+    background-color: transparent !important;
+  }
+  .dropdown-menu a {
+    background-color: transparent !important;
+  }
+  
+  /* First Page ::content */
+  
+  .first_page_para {
+    background-image: url('img/we_r.png');
+    max-width: 475px;
+    background-size: cover;
+    height: 495px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 190px;
+    margin-top: 75px;
+  }
+  .f_header {
+    font-size: 45px;
+    font-family: OpenSans-Bold;
+    color: white;
+    margin-left: 95px;
+    margin-top: 155px;
+  }
+  .f_para {
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    color: white;
+    margin-left: 103px;
+  }
+  .btn1 {
+    font-family: Montserrat-SemiBold;
+    font-size: 11px;
+    border: 0px;
+  }
+  .btn1 {
+    margin-left: 105px;
+    background-color: #6c9e9f;
+  }
+  .first_page_para_div button a {
+    text-decoration: none;
+    color: white;
+  }
+  .btn-group-sm > .btn,
+  .btn-sm {
+    padding: 0.5rem 1.25rem;
+    line-height: 1.5;
+    border-radius: 7.2rem;
+  }
+  
+  /* Second page */
+  
+  .second {
+    background-image: url('img/second_page_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%px;
+    height: 762px;
+  }
+  
+  .first_pic {
+    max-width: 330px !important;
+    height: 277px !important;
+    margin-top: 265px;
+    position: relative;
+  }
+  .second_pic {
+    max-width: 250px !important;
+    height: 250px !important;
+    margin-left: 35px;
+    margin-top: -65px;
+  }
+  .third_pic {
+    max-width: 186px !important;
+    height: 186px !important;
+    z-index: 5 !important;
+    margin-left: 220px;
+    margin-top: -65px;
+    position: relative;
+  }
+  
+  /* Paragraph section */
+  
+  .parent {
+    margin-top: 230px;
+  }
+  .what_we {
+    font-family: Poppins-Bold;
+    color: #67a5ae;
+    font-size: 30px;
+  }
+  .best_place {
+    font-family: Poppins-Bold;
+    color: black;
+    font-size: 43px;
+  }
+  .the_value {
+    font-family: Poppins-Bold;
+    color: #8e8e8e;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .full_story {
+    font-family: Poppins-Bold;
+    color: #222222;
+    font-size: 17px;
+  }
+  
+  /* second page second  part */
+  
+  .icon1 {
+    margin-left: 240px !important;
+  }
+  .icon3 {
+    margin-left: 190px !important;
+  }
+  .icon1_h {
+    text-align: center;
+    font-family: OpenSans-Bold;
+    color: #222222;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .icon1_p {
+    text-align: center;
+    font-family: OpenSans-Semibold;
+    color: #575757;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .btn__icon {
+    margin-bottom: 105px;
+    margin-top: 50px;
+  }
+  .second_footer {
+    background-color: #29636e;
+    height: 220px;
+  }
+  .eleven,
+  .competition {
+    font-family: Poppins-Bold;
+    color: white;
+  }
+  .eleven {
+    font-size: 60px !important;
+    text-align: center;
+    margin-top: 75px;
+  }
+  .competition {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 88px;
+    margin-left: 10px;
+  }
+  .one {
+    margin-left: -40px;
+  }
+  
+  /* Third page */
+  
+  .third_page {
+    background-image: url('img/third_page_bg.png');
+    background-repeat: no-repeat;
+    width: 100%px;
+    background-size: cover;
+    height: 965px;
+    background-position: center center;
+  }
+  .wwa {
+    font-family: Poppins-Bold;
+    font-size: 43px;
+    color: #222222;
+    margin-top: 120px;
+  }
+  .aboutus {
+    font-family: Poppins-SemiBold;
+    font-size: 35px;
+    color: #222222;
+  }
+  .we_are {
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    color: #222222;
+    text-align: justify;
+    margin-bottom: 50px;
+  }
+  .we_are_para {
+    margin-top: 100px;
+  }
+  
+  /* fourth page */
+  
+  .fourth_page {
+    background-image: url('img/robot-wallpaper-4.jpg');
+    background-repeat: no-repeat;
+    width: 100%px;
+    background-size: cover;
+    height: 855px;
+    background-position: center center;
+  }
+  .our_services_div {
+    margin-top: 85px;
+  }
+  .our_services {
+    font-family: Poppins-Bold;
+    font-size: 30px;
+    color: black;
+    background-color: rgba(205, 234, 229, 0.4);
+    padding: 10px 20px 15px 20px;
+    border-radius: 5px;
+    margin-left: 440px;
+  }
+  
+  .our_services_footer_four_images {
+    margin-top: -60px;
+  }
+  
+  /* left image */
+  
+  .cc {
+    margin-top: 200px;
+  }
+  .img_cc {
+    max-width: 556px;
+    height: 460px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .cc_wraper {
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 45px;
+  }
+  .creat {
+    font-family: Poppins-SemiBold;
+    color: white;
+    font-size: 30px;
+  }
+  .consult {
+    font-family: Poppins-Bold;
+    color: white;
+    font-size: 48px;
+  }
+  
+  /* right image */
+  
+  .rd-wrapper {
+    margin-top: 200px;
+  }
+  .img_rd {
+    max-width: 273px;
+    height: 460px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .rd {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 30px;
+  }
+  .rd_h5 {
+    font-family: Poppins-SemiBold;
+    color: white;
+    font-size: 18px;
+  }
+  .rd_h4 {
+    font-family: Poppins-Bold;
+    color: white;
+    font-size: 30px;
+  }
+  
+  /* middle pics */
+  
+  .pm_div {
+    margin-top: 200px;
+  }
+  .img_pm {
+    max-width: 267px;
+    height: 220px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .pm {
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 35px;
+  }
+  .pm_h {
+    font-family: Poppins-Bold;
+    color: white;
+    font-size: 23px;
+  }
+  
+  .h5 {
+    font-size: 18px;
+  }
+  .h4 {
+    font-size: 23px;
+  }
+  .dd {
+    margin-top: 20px;
+  }
+  
+  /* fifth page */
+  
+  .fifth_page {
+    background-image: url('img/Latest_news_bg.png');
+    width: 100%px;
+    height: 990px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .left_content {
+    margin-top: 360px;
+    margin-left: 45px;
+  }
+  
+  .get_update {
+    font-family: American Typewriter Light;
+    font-size: 30px;
+    color: #29636e;
+  }
+  .latest_news {
+    font-family: ALBA____;
+    font-size: 75px;
+    color: #29636e;
+  }
+  .middle_pics {
+    margin-top: 210px;
+    margin-left: 30px;
+  }
+  .right_lekha {
+    margin-top: 210px;
+  }
+  .achie {
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    color: #29636e;
+  }
+  .arduino1 {
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    color: black;
+  }
+  .arduino {
+    font-family: Poppins-Bold;
+    font-size: 11px;
+    color: black;
+    text-align: justify;
+  }
+  .button_div {
+    margin-top: 60px;
+  }
+  .button_read_blog {
+    font-size: 27px;
+    font-family: Poppins-Bold;
+    color: #29636e;
+    background-color: #b0e3dc;
+    border: none;
+  }
+  
+  /* sixth page */
+  
+  .sixth_page {
+    background-color: #29636e;
+  }
+  .kit {
+    font-size: 36px;
+    font-family: Poppins-Bold;
+    color: #b0e3dc;
+    margin: 50px 0px;
+  }
+  .map_of_cuet {
+    width: 100%;
+    height: 300px;
+  }
+  .kit_img {
+    margin-bottom: 50px;
+  }
+  .kit_h {
+    font-size: 29.12px;
+    font-family: OpenSans-Bold;
+    color: white;
+    margin-bottom: 50px;
+  }
+  .form-control {
+    border-radius: 0px;
+    background-color: #d6f5f0;
+    border: none;
+    width: 105%;
+    height: 60px;
+    font-size: 17px;
+    font-family: OpenSans-Regular;
+    color: #29636e;
+  }
+  .text_form {
+    width: 940px;
+    height: 60px;
+    vertical-align: center;
+  }
+  ::placeholder {
+    color: black !important;
+  }
+  #exampleFormControlTextarea1 {
+    height: 61px;
+  }
+  #exampleFormControlTextarea1 type[placeholder] {
+    margin-top: 10px;
+  }
+  .btn_kit {
+    background-color: #29636e;
+    border-radius: 0px;
+    border: 2px solid white;
+    font-size: 21px;
+    font-family: OpenSans-Bold;
+    color: white;
+    padding: 13.5px 44.5px;
+  }
+  
+  .icon_address {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .icon_add_h {
+    font-size: 17px;
+    font-family: OpenSans-Bold;
+    color: white;
+  }
+  .icon_add_p {
+    font-size: 16px;
+    color: white;
+  }
+  .content_a {
+    margin-top: 35px;
+  }
+  .ciao_adios {
+    margin-left: 20px;
+  }
+  .im_done {
+    margin-left: 20px;
+  }
+  
+  /* last page  */
+  
+  .last_page {
+    background-image: url('img/final_page_bg.png');
+    width: 1920px;
+    height: 491px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .footer_wrapper {
+    margin-top: 265px;
+  }
+  .email_N_subscribe {
+    margin-top: 10px;
+  }
+  
+  .copyright_n_menu {
+    margin-top: 25px;
+  }
+  
+  .copy_right_p {
+    font-family: Poppins-ExtraBold;
+    font-size: 20px;
+    color: white;
+    margin-left: -90px;
+    margin-top: 140px;
+  }
+  
+  .footer_menu {
+    margin-left: -20px;
+    margin-top: 125px;
+  }
+  

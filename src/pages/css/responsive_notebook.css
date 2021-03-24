@@ -1,0 +1,158 @@
+@media only screen and (min-width:990px) and (max-width:1200px){    
+    
+    /* first page */
+
+    .robot_page {
+        width: 100%;
+        height:930px;
+    }
+    .first_page_para {
+        max-width: 440px;
+        height: 459px;
+        margin-left:175px;
+        margin-top:80px;
+    }
+    .navbar button{
+        margin-left:340px;
+    }
+    .navbar ul{
+        margin-left:165px;
+    }
+     
+    /* second page */
+
+    .first_pic{
+        max-width:300px!important;
+        height:253px!important;
+    }
+    .second_pic{
+        max-width:220px!important;
+        height:220px!important;
+        margin-left: 320px;
+        margin-top: -590px;
+    }
+    .third_pic{
+        max-width:150px!important;
+        height:150px!important;
+    }
+    .parent {
+        margin-top: 182px;
+    }
+
+    /* second page second  part */
+
+    .icon1{
+        margin-left:200px!important;
+    }
+    .icon3{
+        margin-left:160px!important;
+    }
+
+    .eleven{
+        font-size:55px!important;
+        margin-top:80px;
+    }
+
+    /* third page background */
+
+
+    .third_page{
+        width:100%;
+        height:auto;
+    }
+
+    /* fourth page */
+
+    .fourth_page{
+        width:100%;
+        height:720px;
+    }
+    .our_services {
+        margin-left: 390px;
+    }
+    .img_cc{
+        max-width:100%;
+        height:366px;
+        margin-top:-40px;
+    }
+    .img_rd{
+        max-width:100%;
+        height:366px;
+        margin-top:-40px;
+    }
+    .rd {
+        margin-left: 20px;
+    }
+    .rd_h4 {
+        font-size: 25px;
+    }
+    .img_pm{
+        max-width:100%;
+        height:auto;
+        margin-top:-40px;
+    }
+    .img_dd{
+        margin-top:0px;
+    }
+
+    /* fifth page */
+
+    .fifth_page{
+        width:100%;
+        height:1060px;
+    }
+    .left_content {
+        margin-left: -15px;
+        margin-top: 380px;
+    }
+
+    .rigth_lekha_margin{
+        margin-bottom: 2rem !important;
+    }
+    .middle_pics {
+        margin-top: 225px;
+        margin-left: 30px;
+    }
+    .middle_pictures{
+        margin-bottom: 4.5rem !important
+    }
+    .right_lekha {
+        margin-top: 225px;
+    }
+    .button_div {
+        margin-top:75px;
+    }
+
+    /* sixth page */
+
+    .btn_kit {
+        padding: 13.5px 30.5px;
+    }
+    .text_form {
+        width: 790px;
+    }
+    .content_a {
+        margin-left: 70px;
+        margin-top:15px;
+    }
+
+    /* last page */
+
+    .copy_right_p {
+        font-size: 16px;
+        margin-top: 105px;
+    }
+    
+    .copyright_n_menu {
+        margin-top: -70px;
+    }
+
+    .last_page {
+        width: 1920px;
+        height: 370px;
+    }
+    .footer_menu {
+        margin-left: -20px;
+        margin-top: 90px;
+    }
+}

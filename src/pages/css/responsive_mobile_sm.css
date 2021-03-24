@@ -1,0 +1,395 @@
+@media only screen and (max-width:480px){
+
+    /* first page */
+
+    .robot_page {
+        width: 100%;
+        height: 710px;
+    }
+    .navbar-toggler{
+            margin-top: 05px;
+            margin-right: 05px;
+            padding: .05rem .20rem;
+            font-size: 1.25rem;
+    }
+    .navbar ul {
+        margin-left: -180px !important;
+        margin-top: 20px !important;
+    }
+    .navbar ul li a {
+        font-size: 9px;
+    }
+    .navbar button{
+        margin-left:18px!important;
+    }
+    .navbar ul {
+        margin-left: -180px !important;
+        margin-top: 20px !important;
+    }
+    .navbar button{
+        margin-left:0px;
+    }
+    .logo {
+        width: 265px;
+        height: 90px;
+        margin-left:0px;
+    }
+    .logo_p {
+        font-size: 9px;
+        margin-top: 45px;
+        margin-left: 84px;
+    }
+    .f_header {
+        font-size: 25px;
+        margin-left: 55px;
+        margin-top: 80px;
+    }
+    .first_page_para {
+        max-width: 300px;
+        height: 312px;
+        margin-left: 35px;
+        margin-top: 75px;
+    }
+    .f_para {
+        font-size: 12px;
+        margin-left: 60px;
+    }
+    .btn2, .btn1 {
+        font-size: 6px;
+    }
+    .btn1 {
+        margin-left: 60px;
+    }
+
+    /* second page */
+
+
+    .second {
+        width: 725px;
+        height: 640px;
+    }
+
+    .first_pic {
+        max-width: 180px !important;
+        height: 152px !important;
+        margin-top: 135px;
+        margin-left: -6px;
+    }
+    .second_pic {
+        max-width: 135px !important;
+        height: 135px !important;
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+    .third_pic {
+        max-width: 90px !important;
+        height: 90px !important;
+        margin-left: 135px;
+        margin-top: -40px;
+    }
+    .what_we {
+        color: black;
+        font-size: 14px;
+    }
+    .best_place {
+        font-size: 20px;
+    }
+    .the_value {
+        font-size: 12px;
+    }
+    .parent {
+        margin-top: 40px;
+    }
+
+    /* second page second part */
+
+    .btn__icon {
+        display: none;
+    }
+    .btn__icon2{
+        display: none;
+    }
+    .icon1_h {
+        font-size:18px;
+        margin-top:15px;
+    }
+    .icon1_p {
+        font-size:14px;
+        margin-top:15px;
+    }
+    .icon1 {
+        margin-left: 135px !important;
+    }
+    .icon3 {
+        margin-left: 140px !important;
+    }
+
+
+    /* second page second part */
+    
+    .second_footer {
+        height: 320px;
+    }
+
+    .competition {
+        font-size: 12px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .eleven {
+        font-size: 40px !important;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .comp_one{
+        margin-left:80px;
+    }
+    .comp_three{
+        margin-left:35px;
+    }
+    .comp_four{
+        margin-left:32px;
+    }
+
+
+    /* third page */
+
+
+
+    .third_page {
+        width:100%;
+        height: 650px;
+    }
+    
+    .wwa {
+
+    font-size: 25px;
+    margin-top: 65px;
+
+    }
+    .aboutus {
+        font-size: 25px;
+    }
+    .we_are {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .we_are_para {
+        margin-top: 25px;
+    }
+
+
+    /* fourth page */
+
+    .fourth_page {
+        width: 100%;
+        height: 555px;
+    }
+    .our_services {
+        font-size: 19px;
+        margin-left: 85px;
+    }
+    .our_services_div {
+        margin-top: 40px;
+    }
+    .creat {
+        font-size: 18px;
+        margin-top: 60px;
+        margin-left: -15px;
+    }
+    .consult {
+        font-size: 22px;
+        margin-left: -15px;
+    }
+    .pm_h {
+        font-size: 15px;
+    }
+    .pm_h1 {
+        margin-top: -55px;
+        margin-left: 15px;
+    }
+    .h5 {
+        font-size: 14px;
+        margin-top: -105px;
+        margin-left: 157px;
+    }
+    .h4 {
+        font-size: 16px;
+        margin-left: 157px;
+        margin-top: 0px;
+    }
+    .rd_h5 {
+        font-size: 13px;
+        margin-top: 35px;
+        margin-left: -25px;
+    }
+    .rd_h4 {
+        font-size: 12px;
+        margin-left: -25px;
+    }
+    .img_cc {
+        max-width: 100%;
+        height: 200px;
+    }
+    .img_pm {
+        max-width: 100%;
+        height: 123px;
+    }
+    .img_rd {
+        max-width: 100%;
+        height: 200px;
+    }
+    .rd-wrapper {
+        margin-top: -468px;
+        margin-left: 244px;
+    }
+    .cc {
+        margin-top: 95px;
+        margin-left: 0px;
+    }
+    .img_pm1 {
+        margin-top: -270px;
+        margin-left: 10px;
+    }
+    .img_dd {
+        margin-top: -358px;
+        margin-left: 165px;
+    }
+
+
+    /* fifth page */
+
+
+    .fifth_page {
+        width: 100%;
+        height: 1080px;
+        margin-bottom: -125px;
+    }
+    .get_update {
+        font-size: 18px;
+    }
+    .latest_news {
+        font-size: 35px;
+    }
+    .left_content {
+        margin-top: 40px;
+        margin-left: 125px;
+    }
+    .middle_pictures {
+        max-width: 100%;
+        height: 80px;
+    }
+    .middle_pics {
+        margin-top: 25px;
+        margin-left: -10px;
+    }
+    .p1{
+        margin-top: 20px;
+        margin-left:10px;
+    }
+    .p2{
+        margin-top: -156px;
+        margin-left: 180px;
+    }
+    .p3{
+        margin-top: -60px;
+        margin-left:100px;
+    }
+    .achie{
+        font-size: 12px;
+        margin-bottom: 0.5rem;
+    }
+    .arduino1 {
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+    .arduino {
+        font-size: 10px;
+    }
+    .right_lekha {
+        margin-top: -25px;
+        margin-left: 0px;
+    }
+    .rigth_lekha_margin{
+        margin-bottom: 0.0rem !important;
+    }
+    .button_read_blog {
+        font-size: 20px;
+    }
+    .button_div {
+        margin-top: 30px;
+    }
+
+    /* sixth page */
+
+
+    .map_of_cuet{
+        width:100%;
+        height:180px;
+    }
+    .kit {
+        font-size: 25px;
+        margin: 30px 0px;
+    }
+    .kit_h {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .kit_img {
+        margin-bottom: 30px;
+    }
+    .form-control {
+        height: 30px;
+        font-size: 12px;
+    }
+    .col {
+        max-width: 33%;
+    }
+    textarea.form-control {
+        height: 40px;
+    }
+    .text_form {
+        width: 100.5%;
+    }
+    .btn_kit {
+        font-size: 10px;
+        margin-left: 105px;
+        padding: 9.5px 44.5px;
+    }
+    .icon_add_h {
+        font-size: 12px;
+    }
+    .icon_add_p {
+        font-size: 13px;
+    }
+    .last_of_the_icons{
+        margin-left: 20px;
+    }
+    #exampleFormControlTextarea1 {
+        height: 35px;
+    }
+
+
+    /* last page */
+
+
+    .last_page {
+        width: 100%;
+        height: 340px;
+    }
+    .copy_right_p {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: -80px;
+        color: white;
+    }
+    .footer_menu ul li a img{
+        width:40px;
+        height:39px;
+    }
+    .footer_menu {
+        margin-left: -25px;
+        margin-top: 5px;
+    }
+
+}

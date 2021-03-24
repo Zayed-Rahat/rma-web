@@ -1,0 +1,370 @@
+@media only screen and (min-width: 480px) and (max-width: 765px){
+
+    /* first page */
+
+    .robot_page {
+        width: 100%;
+        height: 750px;
+    }
+    .navbar-toggler{
+            margin-top: 10px;
+            margin-right: 10px;
+    }
+    .navbar ul {
+        margin-left: -75px!important;
+        margin-top: 20px !important;
+    }
+    .navbar ul li a {
+        font-size: 12px;
+    }
+    .logo {
+        width: 300px;
+        height: 99px;
+        margin-left: 20px;
+    }
+    .logo_p {
+        font-size: 10px;
+        margin-top: 50px;
+        margin-left: 91px;
+    }
+    .f_header {
+        font-size: 30px;
+        margin-left: 55px;
+        margin-top: 80px;
+    }
+    .first_page_para {
+        max-width: 300px;
+        height: 312px;
+        margin-left: 75px;
+        margin-top: 75px;
+    }
+    .f_para {
+        font-size: 12px;
+        margin-left: 60px;
+    }
+    .btn2, .btn1 {
+        font-size: 6px;
+    }
+    .btn1 {
+        margin-left: 60px;
+    }
+
+    /* second page */
+
+
+    .second {
+        width: 725px;
+        height: 640px;
+    }
+
+    .first_pic {
+        max-width: 200px !important;
+        height: 168px !important;
+        margin-top: 180px;
+        margin-left: 25px;
+    }
+    .second_pic {
+        max-width: 150px !important;
+        height: 150px !important;
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+    .third_pic {
+        max-width: 100px !important;
+        height: 100px !important;
+        margin-left: 175px;
+        margin-top: -40px;
+    }
+    .what_we {
+        font-size: 15px;
+    }
+    .best_place {
+        font-size: 20px;
+    }
+    .the_value {
+        font-size: 12px;
+    }
+    .full_story {
+        font-size: 15px;
+    }
+    .parent {
+        margin-top: 40px;
+    }
+
+    /* second page second part */
+
+    .btn__icon {
+        display: none;
+    }
+    .btn__icon2{
+        display: none;
+    }
+    .icon1_h {
+        font-size:18px;
+        margin-top:15px;
+    }
+    .icon1_p {
+        font-size:14px;
+        margin-top:15px;
+    }
+    .icon1 {
+        margin-left: 215px !important;
+    }
+    .icon3 {
+        margin-left: 220px !important;
+    }
+
+
+    /* second page second part */
+    
+    .second_footer {
+        height: 320px;
+    }
+
+    .competition {
+        font-size: 12px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .eleven {
+        font-size: 40px !important;
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .comp_one{
+        margin-left:80px;
+    }
+    .comp_three{
+        margin-left:35px;
+    }
+    .comp_four{
+        margin-left:32px;
+    }
+
+
+    /* third page */
+
+
+
+    .third_page {
+        width:100%;
+        height: 650px;
+    }
+    .wwa {
+        font-size: 30px;
+        margin-top: 70px;
+    }
+    .aboutus {
+        font-size: 40px;
+    }
+    .we_are {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .we_are_para {
+        margin-top: 25px;
+    }
+
+
+    /* fourth page */
+
+    .fourth_page {
+        width: 100%;
+        height: 555px;
+    }
+    .our_services {
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    .our_services_div {
+        margin-top: 40px;
+    }
+    .creat {
+        font-size: 18px;
+        margin-top: 60px;
+        margin-left: -15px;
+    }
+    .consult {
+        font-size: 22px;
+        margin-left: -15px;
+    }
+    .pm_h {
+        font-size: 15px;
+    }
+    .pm_h1{
+        margin-top: -55px;
+        margin-left: 75px;
+    }
+    .h5 {
+        font-size: 14px;
+        margin-top: -105px;
+        margin-left: 230px;
+    }
+    .h4 {
+        font-size: 16px;
+        margin-left: 230px;
+        margin-top:0px;
+    }
+    .rd_h5 {
+        font-size: 13px;
+        margin-top: 35px;
+        margin-left: -20px;
+    }
+    .rd_h4 {
+        font-size: 16px;
+        margin-left: -20px;
+    }
+    .img_cc {
+        max-width: 100%;
+        height: 215px;
+    }
+    .img_pm {
+        max-width: 100%;
+        height: 123px;
+    }
+    .cc {
+        margin-top: 95px;
+    }
+    .img_rd {
+        max-width: 100%;
+        height: 215px;
+    }
+    .rd-wrapper {
+        margin-top: -483px;
+        margin-left: 310px;
+    }
+    .cc {
+        margin-top: 95px;
+        margin-left: 40px;
+    }
+    .img_pm1{
+        margin-top: -270px;
+        margin-left: 85px;
+    }
+    .img_dd{
+        margin-top: -358px;
+        margin-left: 245px;
+    }
+
+
+    /* fifth page */
+
+
+    .fifth_page {
+        width: 100%;
+        height: 990px;
+        margin-bottom: -25px;
+    }
+    .get_update {
+        font-size: 18px;
+    }
+    .latest_news {
+        font-size: 35px;
+    }
+    .left_content {
+        margin-top: 65px;
+        margin-left: 180px;
+    }
+    .middle_pictures{
+        max-width: 100%;
+        height: 100px;
+    }
+    .middle_pics {
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+    .achie{
+        font-size: 12px;
+        margin-bottom: 0.5rem;
+    }
+    .arduino1 {
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+    .arduino {
+        font-size: 10px;
+    }
+    .right_lekha {
+        margin-top: -448px;
+        margin-left: 245px;
+    }
+    .rigth_lekha_margin{
+        margin-bottom: 0.0rem !important;
+    }
+    .button_read_blog {
+        font-size: 20px;
+    }
+    .button_div {
+        margin-top: 70px;
+    }
+
+    /* sixth page */
+
+
+    .map_of_cuet{
+        width:100%;
+        height:200px;
+    }
+    .kit {
+        font-size: 25px;
+        margin: 30px 0px;
+    }
+    .kit_h {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .kit_img {
+        margin-bottom: 30px;
+    }
+    .form-control {
+        height: 40px;
+        font-size: 14px;
+    }
+    .col {
+        max-width: 33%;
+    }
+    textarea.form-control {
+        height: 40px;
+    }
+    .text_form {
+        width: 100.5%;
+    }
+    .btn_kit {
+        font-size: 14px;
+        margin-left: 180px;
+    }
+    .icon_add_h {
+        font-size: 14px;
+    }
+    .icon_add_p {
+        font-size: 13px;
+    }
+    .last_of_the_icons{
+        margin-left: 20px;
+    }
+
+
+
+    /* last page */
+
+
+    .last_page {
+        width: 100%;
+        height: 340px;
+    }
+    .copy_right_p {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: -75px;
+        color:white;   
+    }
+    .footer_menu ul li a img{
+        width:40px;
+        height:39px;
+    }
+    .footer_menu {
+        margin-left: -95px;
+        margin-top: 10px;
+    }
+    
+}

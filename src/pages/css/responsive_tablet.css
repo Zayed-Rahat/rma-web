@@ -1,0 +1,287 @@
+@media only screen and (min-width: 762px) and (max-width: 990px) {
+    
+    
+    
+    /* 1st page background */
+    .robot_page {
+        width: 100%;
+        height: 930px;
+    }
+    .navbar button{
+        margin-left:100px;
+    }
+    .navbar ul{
+        margin-left:-20px;
+    }
+    /* First Page ::content */
+    
+    .first_page_para{
+        
+        max-width: 350px;
+        height: 365px;
+        margin-left:100px;
+        margin-top:150px;
+    }
+    .f_header{
+        font-size: 30px;
+        margin-top: 110px;
+        margin-left: 75px;
+    
+    }
+    .f_para{
+        font-size: 12px;
+        margin-left: 80px;
+    }
+    .btn2,.btn1{
+        font-size:8px;
+    }
+    .btn1{
+        margin-left:80px; 
+    } 
+
+    /* Second page */
+
+    .second{
+        width:100%;
+        height:auto;
+    }
+
+
+    .first_pic{
+        max-width:270px!important;
+        height:228px!important;
+        margin-top:265px;
+        margin-left:-15px;
+        z-index:2;
+    }
+    .second_pic{
+        max-width:190px!important;
+        height:190px!important;
+        margin-left: 210px;
+        margin-top: -700px;
+    }
+    .third_pic{
+        max-width:130px!important;
+        height:130px!important;
+    }
+
+
+    /* Paragraph section */
+
+    .what_we{
+        font-size:22px;
+    }
+    .best_place{
+        font-size:30px;
+    }
+    .the_value{
+        font-size:13px;
+    }
+    .full_story{
+        font-size:15px;
+    }
+    .parent {
+        margin-top: 120px;
+    }
+
+    /* second page second  part */
+
+    .icon1{
+        margin-left:135px!important;
+    }
+    .icon3{
+        margin-left:100px!important;
+    }
+
+    .eleven{
+        font-size:35px!important;
+        margin-top:92px;
+    }
+    .competition{
+        font-size:12px;
+        margin-top:95px;
+    }
+    .one{
+        margin-left:-20px;
+    }
+
+        /* Third page */
+
+    .third_page{
+        
+        width:100%;
+        height:auto;
+    }
+    .wwa{
+        font-size:40px;
+    }
+    .aboutus{
+        font-size:32px;
+    }
+    .we_are{
+        font-size:17px;
+    }
+    .we_are_para {
+        margin-top: 100px;
+    }
+
+        /* fourth page */
+
+        .fourth_page{
+            width:100%;
+            height:660px;
+        }
+        .our_services {    
+            font-size: 25px;
+            margin-left: 280px;
+        }
+        .img_cc{
+            max-width:100%;
+            height:auto;
+        }
+        .img_rd{
+            max-width:100%;
+            height:275px;
+        }
+        .img_pm{
+            max-width:100%;
+            height:auto;
+        }
+        .img_dd{
+            margin-top:7px;
+        }
+        .cc_wraper {
+            margin-top: -100px;
+            margin-left: 30px;
+        }
+        .creat {
+            font-size: 22px;
+        }
+        .consult {
+            font-size: 30px;
+        }
+        .pm_h {
+            font-size: 20px;
+        }
+        .pm {
+            margin-top: -65px;
+            margin-left: 20px;
+        }
+        .h5 {
+            font-size: 16px;
+        }
+        .h4 {
+            font-size: 20px;
+        }
+        .rd {
+            margin-top: -75px;
+            margin-left: 13px;
+        }
+        .rd_h5 {
+            font-size: 16px;
+        }
+        .rd_h4 {
+            font-size: 18px;
+        }
+
+        /* fifth page */
+
+    .fifth_page{
+        width: 100%;
+        height: 750px;  
+        }
+    .get_update {
+            font-size: 20px;
+        }    
+        .latest_news {
+            font-size: 50px;
+        }
+    .left_content {
+        margin-top: 280px;
+        margin-left: -15px;
+    }
+
+    .middle_pics {
+        margin-top: 160px;
+        margin-left: 35px;
+    }
+    .middle_pictures{
+        margin-bottom: 3rem !important;
+    }
+    .right_lekha {
+        margin-top: 163px;
+    }
+    .rigth_lekha_margin{
+        margin-bottom: 1rem !important;
+    }
+    .arduino1 {
+        font-size: 12px;
+        margin-top: -18px;
+    }
+    .achie{
+        font-size:14px;
+        font-family:Poppins-Bold;
+    }
+    .arduino {
+        font-size: 9px;
+        margin-top: -13px;
+    }
+
+    /* sixth page */
+
+
+    .btn_kit {
+        font-size: 16px;
+        padding: 10.5px 18.5px;
+    }
+    .map_of_cuet{
+        width:100%;
+        height:250px;
+    }
+    .text_form {
+        width: 596px;
+        height: 50px !important;
+    }
+    .form-control {
+        height: 50px;
+    }
+    .icon_add_h {
+        font-size: 15px;
+    }
+    .icon_add_p {
+        font-size: 14px;
+    }
+    .content_a {
+        margin-top: 15px;
+        margin-left: 54px;
+    }
+
+    /* last page */
+
+    .last_page {
+        width: 100%;
+        height: 320px;
+    }
+
+    .footer_menu ul li a img{
+        width:50px;
+        height:49px;
+    }
+    .copyright_n_menu {
+        margin-top: -16px;
+    }
+    .copy_right_p {
+        font-size: 12px;
+        margin-left: -70px;
+        margin-top: 15px;
+    }
+
+    .subs{
+        font-size: 12px;
+        margin-top:9px;
+    }
+    .footer_menu {
+        margin-top:0px;
+    }
+    
+}
