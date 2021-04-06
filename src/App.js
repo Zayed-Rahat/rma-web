@@ -4,10 +4,8 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-
 import './App.css';
-import Home from './pages/Home';
-
+import Home from './components/Home';
 
 
 function App() {

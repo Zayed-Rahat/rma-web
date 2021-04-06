@@ -1,9 +1,11 @@
 import React from 'react'
-import NewsImage from './news/NewsImage';
-import NewsInner from './news/NewsInner';
+import DataLoad from './news/DataLoad'
+import { NewsLoad } from './news/NewsLoad';
+
 
 function News() {
     return (
+      
         
   <>
              <div class="row">
@@ -12,13 +14,7 @@ function News() {
                 <h1 class="latest_news">LATEST
                     NEWS&#10078;</h1>
             </div>
-            <div class="col-md-3 middle_pics">
-             <NewsImage></NewsImage>
-
-            </div>
-            <div class="col-md-5 right_lekha">
-                <NewsInner></NewsInner>
-            </div>
+          <DataLoad NewsLoad={NewsLoad}/>
             
            </div>
 
