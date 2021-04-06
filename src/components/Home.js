@@ -1,152 +1,116 @@
-import React,{} from 'react';
-import AboutUs from './AboutUs';
-import Activities from './Activities';
-import Contact from './Contact';
-import Content from './Content';
-import Footer from './Footer';
-import Location from './Location';
-import MembersCounter from './MembersCounter';
-import Message from './Message';
-import Navbar from './Navbar';
-import News from './News';
-import Services from './Services';
-import WhatWeDo from './WhatWeDo';
-import './Home.css';
-import './css/responsive_mobile_sm.css';
-import './css/responsive_mobile.css';
-import './css/responsive_notebook.css';
-import './css/responsive_semi_tab.css';
-import './css/responsive_tablet.css';
-
+import React from "react";
+import AboutUs from "./AboutUs";
+import Activities from "./Activities";
+import Contact from "./Contact";
+import Content from "./Content";
+import Footer from "./Footer";
+import Location from "./Location";
+import MembersCounter from "./MembersCounter";
+import Message from "./Message";
+import Navbar from "./Navbar";
+import News from "./News";
+import Services from "./Services";
+import WhatWeDo from "./WhatWeDo";
+import "./Home.css";
+import "./css/responsive_mobile_sm.css";
+import "./css/responsive_mobile.css";
+import "./css/responsive_notebook.css";
+import "./css/responsive_semi_tab.css";
+import "./css/responsive_tablet.css";
 
 class Home extends React.Component {
-    render() {
+  render() {
+    return (
+      <>
+        {/*    <!-- Header and Navbar section -->  */}
 
-        return (
-            <>
-           {/*    <!-- Header and Navbar section -->  */}
+        <div class="robot_page img-fluid">
+          <div class="fix">
+            <div class="header">
+              {/* <!-- logo section --> */}
 
-
-   <div class="robot_page img-fluid"> 
-       <div class="fix">
-
-        <div class="header">
-
-       {/* <!-- logo section --> */}
-
-             <header class="float-left">
-                <div class="logo img-fluid" >
-                    <p class="logo_p">Robo Mechatronics Association Bangladesh</p>
+              <header class="float-left">
+                <div class="logo img-fluid">
+                  <p class="logo_p">Robo Mechatronics Association Bangladesh</p>
                 </div>
-            </header> 
+              </header>
 
-               {/*<!-- Navbar section -->  */}
-             
+              {/*<!-- Navbar section -->  */}
+
               <Navbar></Navbar>
-             
+
               <div class="clearfix"></div>
-        </div> 
+            </div>
 
+            {/*  <!-- Content Section --> */}
+            <Content></Content>
+          </div>
+        </div>
 
-        {/*  <!-- Content Section --> */}
-       <Content></Content>
-    </div>
-    </div>
+        {/* <!-- Second Page --> */}
 
+        <div class="second img-fluid">
+          <WhatWeDo></WhatWeDo>
+        </div>
 
-{/* <!-- Second Page --> */}
+        <hr />
 
+        <div style={{ height: "100px" }}></div>
 
-<div class="second img-fluid">
-   <WhatWeDo>
-   </WhatWeDo>
-</div>
+        {/*<!-- second page second  part -->*/}
 
+        <div class="second_second">
+          <Activities></Activities>
+        </div>
 
-<hr/>
+        <div style={{ height: "100px" }}></div>
 
-<div style={{height:'100px'}}></div>
+        {/*<!-- Second Page Footer -->  */}
 
+        <div class="second_footer">
+          <MembersCounter></MembersCounter>
+        </div>
 
+        {/*<!-- Third Page --> */}
 
- {/*<!-- second page second  part -->*/}
+        <div class="third_page" id="third_page_connector">
+          <AboutUs></AboutUs>
+        </div>
 
-<div class="second_second">
-    <Activities></Activities>
-    
-</div>
+        {/* <!-- Fourth Page --> */}
 
-<div style={{height:'100px'}}></div>
+        <div class="fourth_page">
+          <Services></Services>
+        </div>
 
+        {/*<!-- Fifth Page -->  */}
 
-{/*<!-- Second Page Footer -->  */}
+        <div class="fifth_page">
+          <div class="fix container">
+            <News></News>
+          </div>
+        </div>
 
-<div class="second_footer">
-   <MembersCounter></MembersCounter>
-</div>
+        <div style={{ height: "70px" }}></div>
 
+        {/* <!-- sixth page --> */}
 
-{/*<!-- Third Page --> */}
+        <div class="sixth_page">
+          <div class="fix container">
+            <Location></Location>
+            <Message></Message>
+            <Contact></Contact>
+          </div>
+        </div>
 
-<div class="third_page" id="third_page_connector">
-    <AboutUs></AboutUs>
-    
-</div>
+        {/* <!-- last page --> */}
 
-
-
-{/* <!-- Fourth Page --> */}
-
-<div class="fourth_page">
-    <Services></Services>
-         
-</div>
-
-
-
-{/*<!-- Fifth Page -->  */}
-
-<div class="fifth_page">
-  <div class="fix container">
-
-    <News></News>
-    
-    </div>
-  </div>
-
-
-  <div style={{height:'70px'}}></div>
-
-{/* <!-- sixth page --> */}
-
-<div class="sixth_page">
-    <div class="fix container">
-
-          <Location></Location>
-          <Message></Message>
-      <Contact></Contact>
-
-</div>
-</div>
-
-
-
-{/* <!-- last page --> */}
-
-
-<div class="last_page img-fluid">
-    
-
-         <Footer></Footer>
-
-</div>
-
-
-</>
-        
-        );
-    }
+        <div class="last_page img-fluid">
+          <Footer></Footer>
+        </div>
+      </>
+    );
+  }
 }
 
 export default Home;
-
