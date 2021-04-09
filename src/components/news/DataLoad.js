@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { newsLoad } from "../news/NewsLoad";
 import NewsSingle from "../newsSingle/NewsSingle";
 const DataLoad = () => {
-  const [news, setNews] = useState(newsLoad);
+  const [news] = useState(newsLoad);
   console.log(news);
   return (
     <>

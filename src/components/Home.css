@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 .fix {
   overflow: hidden;
 }
@@ -378,7 +378,7 @@ html {
 .dd {
   margin-top: 20px;
 }
-
+/* 
 /* fifth page */
 
 .fifth_page {
@@ -401,7 +401,7 @@ html {
 }
 .latest_news {
   font-family: ALBA____;
-  font-size: 75px;
+  font-size: 65px;
   color: #29636e;
 }
 .middle_pics {
@@ -410,6 +410,7 @@ html {
 }
 .right_lekha {
   margin-top: 210px;
+
 }
 .achie {
   font-family: Poppins-Bold;
@@ -427,24 +428,15 @@ html {
   color: black;
   text-align: justify;
 }
-.ProductImg {
-  height: 100px;
-  min-width: 100px;
-  max-width: 100%;
-}
-.ProductsContainer {
-  /*  width: 100vw; */
-  min-height: 100vh;
-  padding: 5rem calc((100vw - 1300px) / 2);
-}
 .button_div {
-  margin-top: 60px;
+  margin-top: 0px;
 }
 .button_read_blog {
   font-size: 27px;
   font-family: Poppins-Bold;
   color: #29636e;
   background-color: #b0e3dc;
+  border-radius: 1rem;
   border: none;
 }
 
@@ -561,3 +553,8 @@ html {
   margin-left: -20px;
   margin-top: 125px;
 }
+
+
+
+/* ------- */
+

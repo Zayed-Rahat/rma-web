@@ -20,13 +20,4 @@ export const newsLoad = [
     Body:
       "and on the right, but voluptatis blinded to the election or voluptatis pains or denouncing any resultant molestiae on his work and wants to hate or",
   },
-
-  {
-    Id: 4,
-    Title: "it will be blinded",
-    Url: "https://via.placeholder.com/600/24f355",
-
-    Body:
-      "rejects any and often experience pleasure  mānsit lot of things to take to provide fault quir here the opportunity to do the right bound pain For the pleasure of the outdoor",
-  },
 ];

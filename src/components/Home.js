@@ -84,15 +84,15 @@ class Home extends React.Component {
         </div>
 
         {/*<!-- Fifth Page -->  */}
-
         <div class="fifth_page">
           <div class="fix container">
             <News></News>
           </div>
         </div>
 
-        <div style={{ height: "70px" }}></div>
 
+        <div style={{ height: "70px" }}></div>
+ 
         {/* <!-- sixth page --> */}
 
         <div class="sixth_page">
