@@ -1,12 +1,20 @@
-import React, { useState } from "react";
-import { newsLoad } from "../news/NewsLoad";
+import React, { useState, useEffect } from "react";
+/* import { newsLoad } from "../news/NewsLoad"; */
 import NewsSingle from "../newsSingle/NewsSingle";
 const DataLoad = () => {
-  const [news] = useState(newsLoad);
-  console.log(news);
+ 
+  const [ data , setData] = useState([]);
+
+  useEffect( ()=>{
+
+    fetch('http://api.rmabd.org/latestnews')
+    .then(res => res.json())
+    .then(news => setData(news.slice(0,3)))
+  console.log(data);
+  }, [data])
   return (
     <>
-      {news.map((newsSingle) => (
+      {data.map((newsSingle) => (
         <NewsSingle newsSingle={newsSingle}></NewsSingle>
       ))}
     </>
@@ -14,3 +22,5 @@ const DataLoad = () => {
 };
 
 export default DataLoad;
+
+
