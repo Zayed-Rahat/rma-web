@@ -4,8 +4,9 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-import './App.css';
+
 import Home from './components/Home';
+import LatestNews from './components/news/LatestNews';
 
 
 function App() {
@@ -14,7 +15,17 @@ function App() {
 
         
         <Switch>
-          <Route exact path="/" component={Home} />
+        <Switch>
+        <Route  exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
+            <Home/>
+            </Route>
+            <Route path="/latestnews">
+            <LatestNews/>
+            </Route>
+          </Switch>
   
           </Switch>
 

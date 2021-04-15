@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import DataLoad from "./news/DataLoad";
+
 
 function News() {
   return (
@@ -13,10 +15,12 @@ function News() {
           <DataLoad/>
         </div>
       </div>
+      
 
       <div class="row button_div">
         <button type="button" class="button_read_blog btn btn-primary m-auto">
-          READ our BLOG
+        <Link href="/news/LatestNews">READ our BLOG</Link>
+        
         </button>
       </div>
     </>
