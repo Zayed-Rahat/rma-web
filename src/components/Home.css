@@ -423,6 +423,7 @@ html {
   font-size: 11px;
   color: black;
   text-align: justify;
+  
 }
 .button_div {
   margin-top: 0px;
@@ -430,12 +431,19 @@ html {
 .button_read_blog {
   font-size: 27px;
   font-family: Poppins-Bold;
-  color: #29636e;
-  background-color: #b0e3dc;
-  border-radius: 1rem;
   border: none;
+  border-color: white;
 }
+.link{
+  color: #f3f8fa;
+  background-color:  #187d8d;
+}
+.link:hover{
+  background-color: #f3f8fa;
+  color:  #187d8d;
+  text-decoration: none;
 
+}
 /* sixth page */
 
 .sixth_page {

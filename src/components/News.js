@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import DataLoad from "./news/DataLoad";
+import {
 
-
+  Link
+} from "react-router-dom";
 function News() {
   return (
     <>
@@ -15,12 +16,10 @@ function News() {
           <DataLoad/>
         </div>
       </div>
-      
 
       <div class="row button_div">
-        <button type="button" class="button_read_blog btn btn-primary m-auto">
-        <Link href="/news/LatestNews">READ our BLOG</Link>
-        
+        <button type="button" class="button_read_blog btn btn-primary m-auto"><Link className="link" to="/latestnews">
+          READ our BLOG</Link>
         </button>
       </div>
     </>
