@@ -18,7 +18,7 @@ function News() {
       </div>
 
       <div class="row button_div">
-        <button type="button" class="button_read_blog btn btn-primary m-auto"><Link className="link" to="/latestnews">
+        <button type="button" class="button_read_blog btn btn-primary m-auto"><Link className="link" to="/latestNews">
           READ our BLOG</Link>
         </button>
       </div>

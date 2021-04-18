@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './NewsSingle.css'
+
+import './NewsSingle.css';
+
 function NewsSingle(props) {
   
-  const {image,title,paragraph} = props.newsSingle;
+  const {image,title,paragraph,id} = props.newsSingle;
 
   return (
     <div>
@@ -13,12 +15,13 @@ function NewsSingle(props) {
   <img src={image} alt=""/>
 </div>
 
-<div class="blog-post_info">
+<div >
   <h2 className="arduino1">{title}</h2>
   <p id="text5" class="blog-post_text">
        {paragraph}
       </p>
-   <Link href="#" class="blog-post_cta">Read more</Link>
+
+   <Link to={`/newssingle/${id}`} class="blog-post_cta">  Read more</Link>
 </div>
 
 

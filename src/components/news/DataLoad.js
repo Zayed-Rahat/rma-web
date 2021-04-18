@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-/* import { newsLoad } from "../news/NewsLoad"; */
 import NewsSingle from "../newsSingle/NewsSingle";
 const DataLoad = () => {
  
@@ -15,7 +14,9 @@ const DataLoad = () => {
   return (
     <>
       {data.map((newsSingle) => (
-        <NewsSingle newsSingle={newsSingle}></NewsSingle>
+        <NewsSingle key={newsSingle.id} newsSingle={newsSingle}>
+
+        </NewsSingle>
       ))}
     </>
   );

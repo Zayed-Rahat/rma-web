@@ -8,13 +8,17 @@ const LatestNews = () => {
         fetch('https://api.rmabd.org/latestnews')
       .then( res => res.json())
         .then( data => setlatestNews(data))
-        console.log(latestNews)
+      /*   console.log(latestNews) */
     },[latestNews])
     return (
         <div>
-            <h1>
-                {latestNews.title}
-            </h1>
+            {latestNews.map(latestNews=>(
+               <h1>
+
+                 {latestNews.title} 
+            </h1> 
+            ))}
+            
         </div>
     );
 };

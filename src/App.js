@@ -7,6 +7,8 @@ import {
 
 import Home from './components/Home';
 import LatestNews from './components/news/LatestNews';
+import MoreNews from './components/newsSingle/MoreNews';
+import NewsSingle from './components/newsSingle/NewsSingle';
 
 
 function App() {
@@ -15,17 +17,19 @@ function App() {
 
         
         <Switch>
-        <Switch>
+        
         <Route  exact path="/">
             <Home />
           </Route>
           <Route path="/home">
             <Home/>
             </Route>
-            <Route path="/latestnews">
-            <LatestNews/>
-            </Route>
-          </Switch>
+            <Route path="/latestnews" component={LatestNews}/>
+            
+
+            <Route path="/newssingle"  exact component={NewsSingle}/>
+            <Route path="/newssingle/:id"  component={MoreNews}/>
+          
   
           </Switch>
 
