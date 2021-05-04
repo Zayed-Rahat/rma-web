@@ -11,9 +11,16 @@ html {
 .robot_page {
   background-image: url("img/sfnoandoroidorobotuto-kabegami-2560x1600-12601_7.jpg");
   background-repeat: no-repeat;
-  width: 100%px;
+  width: 100%;
   background-size: cover;
   height: 855px;
+  background-position: center center;
+}
+.morenews{
+  background-image: url("img/sfnoandoroidorobotuto-kabegami-2560x1600-12601_7.jpg");
+  background-repeat: no-repeat;
+  background-size:  100% 150px;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -534,6 +541,14 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.last_page2{
+  background-image: url("img/final_page_bg.png");
+  margin-top: 10px;
+  background-size:  100% 150px;
+  background-size: cover;
+  background-position: center center;
+}
+
 .footer_wrapper {
   margin-top: 265px;
 }
@@ -557,6 +572,116 @@ html {
   margin-left: -20px;
   margin-top: 125px;
 }
+
+
+/* Blog Details CSS */
+
+.blog-details h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 32px;
+  
+  margin-top: 20px;
+}
+
+.blog-details p{
+ font-size: medium;
+}
+.blog-details img {
+  width: 100%;
+  height: 380px;
+  border: 1px solid #eee;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+.related_posts {
+  margin: 50px 0;
+}
+.related_posts h5,
+.comments h5 {
+  text-transform: capitalize;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.comments input,
+.comments textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.button {
+  background-color: #1f5221; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #635CDB;
+  color: rgb(196, 224, 204);
+}
+
+.sidebar {
+  margin-bottom: 35px;
+}
+.sidebar h5 {
+  text-transform: capitalize;
+  font-size: 24px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.sidebar h5:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #635cdb;
+  bottom: -2px;
+  left: 0;
+}
+
+.sidebar-post h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.sidebar-post {
+  margin-bottom: 20px;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar ul li a {
+  font-size: 16px;
+}
+
+
 
 
 
