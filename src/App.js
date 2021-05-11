@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Home from './components/Home';
-import LatestNews from './components/news/LatestNews';
+import ReadOurBlog from './components/news/readOurBlog/ReadOurBlog';
 import MoreNews from './components/newsSingle/MoreNews';
 import NewsSingle from './components/newsSingle/NewsSingle';
 
@@ -24,9 +24,8 @@ function App() {
           <Route path="/home">
             <Home/>
             </Route>
-            <Route path="/latestnews" component={LatestNews}/>
             
-
+            <Route path="/readOurBlog" exact component={ReadOurBlog}/>
             <Route path="/newssingle"  exact component={NewsSingle}/>
             <Route path="/newssingle/:id"  component={MoreNews}/>
           

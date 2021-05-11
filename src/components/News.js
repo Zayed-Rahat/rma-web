@@ -1,5 +1,6 @@
 import React from "react";
 import DataLoad from "./news/DataLoad";
+
 import {
 
   Link
@@ -18,7 +19,7 @@ function News() {
       </div>
 
       <div class="row button_div">
-        <button type="button" class="button_read_blog btn btn-primary m-auto"><Link className="link" to="/latestNews">
+        <button type="button" class="button_read_blog btn btn-primary m-auto"><Link className="link" to="/readOurBlog">
           READ our BLOG</Link>
         </button>
       </div>
