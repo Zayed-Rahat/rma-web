@@ -165,13 +165,17 @@ input[type="submit"]
 .main-container-right article div{
   margin-right: 10px;
 }
-
-
 .see-more{
   text-align: center;
   text-transform: uppercase;
   font-size: 4rem;
   color: rgb(189, 69, 69);
+}
+/*Pagination */
+
+.page-number{
+  text-align: center;
+  font-size: 5rem;
 }
 /****** footer *****/
 

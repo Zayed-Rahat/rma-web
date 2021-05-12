@@ -2,7 +2,6 @@ import React from "react";
 import DataLoad from "./news/DataLoad";
 
 import {
-
   Link
 } from "react-router-dom";
 function News() {

@@ -1,17 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, {  } from "react";
 import NewsReadBlog from "./NewsReadBlog";
 
-const DataLoadReadBlog = () => {
- 
-  const [ read , setRead] = useState([]);
+const DataLoadReadBlog = ({read}) => {
 
-  useEffect( ()=>{
-
-    fetch('http://api.rmabd.org/latestnews')
-    .then(response => response.json())
-    .then(newS => setRead(newS.slice(0,4)))
-  console.log(read);
-  }, [read])
   return (
     <>
       {read.map((newsRead) => (

@@ -1,11 +1,34 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import Navbar from "../../Navbar";
 import "../../Home.css"
 import "./css/style.css";
+import Pagination from './Pagination';
 import DataLoadReadBlog from './DataLoadReadBlog';
-function ReadOurBlog (props) {
+function ReadOurBlog () {
+
+    const [currentPage, setCurrentPage] = useState(1);
+    const [postsPerPage] = useState(3);
+   const [ read , setRead] = useState([]);
+
+  useEffect( ()=>{
+
+    fetch('http://api.rmabd.org/latestnews')
+    .then(response => response.json())
+    .then(newS => setRead(newS))
+  console.log(read);
+  
+  }, [read])
 
 
+
+     // Get current posts
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = read.slice(indexOfFirstPost, indexOfLastPost);
+
+  
+  // Change page
+  const paginate = pageNumber => setCurrentPage(pageNumber);
     return (
         <>
              <div class="robot_page img-fluid">
@@ -105,9 +128,13 @@ function ReadOurBlog (props) {
             <section class = "main-container-right">
             <h2>Whats New?</h2>
 
-                <DataLoadReadBlog/>
+                <DataLoadReadBlog read={currentPosts}/>
 
-                <h4 class="see-more"> See More</h4>
+                <Pagination  postsPerPage={postsPerPage}
+                     totalPosts={read.length}
+                   paginate={paginate}
+                       />
+
 
             </section>
 
@@ -116,8 +143,8 @@ function ReadOurBlog (props) {
         
         <footer>
 
-            <h2>FOOTER</h2>
-        </footer>
+<h2>FOOTER</h2>
+</footer>
 
   </>
           

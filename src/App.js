@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 
 import Home from './components/Home';
-import NewsReadBlog from './components/news/readOurBlog/NewsReadBlog';
 import ReadOurBlog from './components/news/readOurBlog/ReadOurBlog';
 import MoreNews from './components/newsSingle/MoreNews';
 import NewsSingle from './components/newsSingle/NewsSingle';
@@ -18,7 +17,7 @@ function App() {
 
         
         <Switch>
-        
+      
         <Route  exact path="/">
             <Home />
           </Route>
@@ -27,7 +26,8 @@ function App() {
             </Route>
             
             <Route path="/readOurBlog" exact component={ReadOurBlog}/>
-            {/* <Route path="/newsRead" component={NewsReadBlog}/> */}
+
+  
             <Route path="/newssingle"  exact component={NewsSingle}/>
             <Route path="/newssingle/:id"  component={MoreNews}/>
           
