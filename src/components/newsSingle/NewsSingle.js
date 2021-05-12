@@ -10,7 +10,7 @@ function NewsSingle(props) {
   return (
     <div>
       <div class="News-body">
-<div class="blog-post">
+<div class="blog-post">r
 <div class="blog-post_img">
   <img src={image} alt=""/>
 </div>

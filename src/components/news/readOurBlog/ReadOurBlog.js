@@ -2,7 +2,10 @@ import React from 'react';
 import Navbar from "../../Navbar";
 import "../../Home.css"
 import "./css/style.css";
-const ReadOurBlog = () => {
+import DataLoadReadBlog from './DataLoadReadBlog';
+function ReadOurBlog (props) {
+
+
     return (
         <>
              <div class="robot_page img-fluid">
@@ -100,66 +103,12 @@ const ReadOurBlog = () => {
             </div>
 
             <section class = "main-container-right">
-                <h2>Whats New?</h2>
-                
-                <article>
-                    <img src = "images/right-1.jpg" alt=" "/>
-                    <div>
-                        <h2>Here's how to track your stimulus check with the IRS Get My Payment Portal</h2>
+            <h2>Whats New?</h2>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+                <DataLoadReadBlog/>
 
-                        <h5>Date...</h5>
-                    </div>
-                </article>
+                <h4 class="see-more"> See More</h4>
 
-                <article>
-                    <img src = "images/right-2.jpg" alt=" "/>
-
-                    <div>
-                        <h2>The best outdoor games to play with your family</h2>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
-
-                        <h5>Date...</h5>
-                    </div>
-                </article>
-
-                <article>
-                    <img src = "images/right-3.jpg" alt=" "/>
-                    <div>
-                        <h2>Why walk? Check out the best electric scooters and e-bikes for 2020</h2>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
-
-                        <h5>Date...</h5>
-
-                    </div>
-                </article>
-
-                <article>
-                    <img src = "images/right-4.jpg" alt=" "/>
-                    <div>
-                        <h2>Disneyland Paris will stream its Lion King stage show Friday night</h2>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
-
-                        <h5>Date...</h5>
-
-                    </div>
-                </article>
-
-                <article>
-                    <img src = "images/right-5.jpg"alt=" " />
-                    <div>
-                        <h2>Looking at a phone's lock screen also requries a warrant, judge rules</h2>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
-
-                        <h5>Date...</h5>
-                    </div>
-                </article>
-                   <h4 class="see-more"> See More</h4>
             </section>
 
           

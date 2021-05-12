@@ -3,19 +3,7 @@ import Footer from "../Footer";
 import Navbar from "../Navbar";
 import './NewsSingle.css';
 
-function MoreNews({ match }) {
-
-  const [more, setMore] = useState([]);
-
-  useEffect(() => {
-
-    fetch(`http://api.rmabd.org/latestnews/${match.params.id}`)
-      .then(res => res.json())
-      .then(news => setMore(news))
-    console.log(match);
-
-    console.log(more);
-  }, [more, match])
+function MoreNews() {
 
   return (
 
@@ -56,7 +44,7 @@ function MoreNews({ match }) {
             <div class="row">
                 <div class="col-md-8">
                     <div class="blog-details">
-                        <h2>{more.title}</h2>
+                        <h2>Lorem</h2>
                         <h3>gdfgjdklgjdfklgj</h3>
                         <img src="/ast/img/md.png" alt="piccc"/>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ex aspernatur quibusdam et mollitia iure in, fugiat non tempore sapiente dolore cumque a eaque consequatur asperiores vel! Eius, nemo corrupti.</p>
