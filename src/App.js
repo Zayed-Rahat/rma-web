@@ -26,8 +26,8 @@ import { auth } from "./firebase";
 import { useDispatch } from "react-redux";
 import { currentUser } from "./functions/auth";
 import NewsCreate from "./admin-pages/admin/news/NewsCreate";
-import NewsUpdate from "./admin-pages/admin/news/NewsUpdate";
-import AllNews from "./admin-pages/admin/news/AllNews";
+/* import NewsUpdate from "./admin-pages/admin/news/NewsUpdate";
+ */import AllNews from "./admin-pages/admin/news/AllNews";
 const App = () => {
   const dispatch = useDispatch();
 
@@ -81,11 +81,11 @@ const App = () => {
       <AdminRoute exact path="/admin/dashboard" component={AdminDashboard} />
       <AdminRoute exact path="/admin/news"  component={NewsCreate} />
       <AdminRoute exact path="/admin/allNews" component={AllNews} />
-        <AdminRoute
+        {/* <AdminRoute
           exact
           path="/admin/news/:slug"
           component={NewsUpdate}
-        />
+        /> */}
   </Switch>
 
 </Router>

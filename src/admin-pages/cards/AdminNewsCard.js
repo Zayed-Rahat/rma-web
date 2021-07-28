@@ -7,7 +7,7 @@ const { Meta } = Card;
 
 const AdminNewsCard = ({ news, handleRemove }) => {
   // destructure
-  const { title, description, images, slug } = news;
+  const { title , paragragh , images , id } = news;
 
   return (
     <Card
@@ -19,18 +19,18 @@ const AdminNewsCard = ({ news, handleRemove }) => {
         />
       }
       actions={[
-        <Link to={`/admin/news/${slug}`}>
+        <Link to={`/admin/latestnews/${id}`}>
           <EditOutlined className="text-warning" />
         </Link>,
         <DeleteOutlined
-          onClick={() => handleRemove(slug)}
+          onClick={() => handleRemove(id)}
           className="text-danger"
         />,
       ]}
     >
       <Meta
         title={title}
-        description={`${description && description.substring(0, 40)}...`}
+        paragragh={`${paragragh && paragragh.substring(0, 40)}...`}
       />
     </Card>
   );

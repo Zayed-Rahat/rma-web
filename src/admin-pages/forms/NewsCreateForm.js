@@ -9,9 +9,9 @@ const NewsCreateForm = ({
   // destructure
   const {
     title,
-    description,
-    images,
-    
+    paragragh,
+    images
+  
   } = values;
 
   return (
@@ -33,7 +33,7 @@ const NewsCreateForm = ({
           type="text"
           name="description"
           className="form-control"
-          value={description}
+          value={paragragh}
           onChange={handleChange}
         />
       </div>
