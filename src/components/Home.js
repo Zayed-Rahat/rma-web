@@ -7,7 +7,6 @@ import Footer from "./Footer";
 import Location from "./Location";
 import MembersCounter from "./MembersCounter";
 import Message from "./Message";
-import Navbar from "./Navbar";
 import News from "./News";
 import Services from "./Services";
 import WhatWeDo from "./WhatWeDo";
@@ -17,6 +16,7 @@ import "./css/responsive_mobile.css";
 import "./css/responsive_notebook.css";
 import "./css/responsive_semi_tab.css";
 import "./css/responsive_tablet.css";
+import NavBar from "./NavBar";
 
 class Home extends React.Component {
   render() {
@@ -37,7 +37,7 @@ class Home extends React.Component {
 
               {/*<!-- Navbar section -->  */}
 
-              <Navbar></Navbar>
+              <NavBar/>
 
               <div class="clearfix"></div>
             </div>

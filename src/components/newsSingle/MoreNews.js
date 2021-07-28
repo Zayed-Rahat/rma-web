@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Footer from "../Footer";
-import Navbar from "../Navbar";
+import NavBar from "../NavBar";
 import './NewsSingle.css';
+import { Link } from 'react-router-dom';
 
 function MoreNews() {
 
@@ -24,7 +25,7 @@ function MoreNews() {
 
               {/*<!-- Navbar section -->  */}
 
-              <Navbar></Navbar>
+              <NavBar/>
 
               <div class="clearfix"></div>
             </div>
@@ -68,44 +69,44 @@ function MoreNews() {
                     <div class="sidebar">
                         <h5>latest post</h5>
                         <div class="sidebar-post">
-                            <h6><a href="">Lorem ipsum dolor sit amet.</a></h6>
-                            <a href="">10 april 2021</a> / <a href="">admin</a>
+                            <h6><Link>Lorem ipsum dolor sit amet.</Link></h6>
+                            <Link href="">10 april 2021</Link> / <Link href="">admin</Link>
                         </div>
                         <div class="sidebar-post">
-                            <h6><a href="">Lorem ipsum dolor sit amet.</a></h6>
-                            <a href="">10 april 2021</a> / <a href="">admin</a>
+                            <h6><Link>Lorem ipsum dolor sit amet.</Link></h6>
+                            <Link href="">10 april 2021</Link> / <Link href="">admin</Link>
                         </div>
                         <div class="sidebar-post">
-                            <h6><a href="">Lorem ipsum dolor sit amet.</a></h6>
-                            <a href="">10 april 2021</a> / <a href="">admin</a>
+                            <h6><Link>Lorem ipsum dolor sit amet.</Link></h6>
+                            <Link href="">10 april 2021</Link> / <Link href="">admin</Link>
                         </div>
                         <div class="sidebar-post">
-                            <h6><a href="">Lorem ipsum dolor sit amet.</a></h6>
-                            <a href="">10 april 2021</a> / <a href="">admin</a>
+                            <h6><Link>Lorem ipsum dolor sit amet.</Link></h6>
+                            <Link href="">10 april 2021</Link> / <Link href="">admin</Link>
                         </div>
                         <div class="sidebar-post">
-                            <h6><a href="">Lorem ipsum dolor sit amet.</a></h6>
-                            <a href="">10 april 2021</a> / <a href="">admin</a>
+                            <h6><Link>Lorem ipsum dolor sit amet.</Link></h6>
+                            <Link href="">10 april 2021</Link> / <Link href="">admin</Link>
                         </div>
                     </div>
                     <div class="sidebar">
                         <h5>category</h5>
                         <ul>
-                            <li><a href="">web design</a></li>
-                            <li><a href="">web development</a></li>
-                            <li><a href="">software development</a></li>
-                            <li><a href="">digital mrketing</a></li>
-                            <li><a href="">graphics design</a></li>
+                            <li><Link href="">web design</Link></li>
+                            <li><Link href="">web development</Link></li>
+                            <li><Link href="">software development</Link></li>
+                            <li><Link href="">digital mrketing</Link></li>
+                            <li><Link href="">graphics design</Link></li>
                         </ul>
                     </div>
                     <div class="sidebar">
                         <h5>latest comments</h5>
                         <ul>
-                            <li><a href="">admin</a> on  <a href="">Lorem ipsum dolor sit amet.</a></li>
-                            <li><a href="">david</a> on  <a href="">Lorem ipsum dolor sit amet.</a></li>
-                            <li><a href="">john</a> on  <a href="">Lorem ipsum dolor sit amet.</a></li>
-                            <li><a href="">wick</a> on  <a href="">Lorem ipsum dolor sit amet.</a></li>
-                            <li><a href="">mick</a> on  <a href="">Lorem ipsum dolor sit amet.</a></li>
+                            <li><Link href="">admin</Link> on  <Link href="">Lorem ipsum dolor sit amet.</Link></li>
+                            <li><Link href="">david</Link> on  <Link href="">Lorem ipsum dolor sit amet.</Link></li>
+                            <li><Link href="">john</Link> on  <Link href="">Lorem ipsum dolor sit amet.</Link></li>
+                            <li><Link href="">wick</Link> on  <Link href="">Lorem ipsum dolor sit amet.</Link></li>
+                            <li><Link href="">mick</Link> on  <Link href="">Lorem ipsum dolor sit amet.</Link></li>
                         </ul>
                     </div>
                 </div>

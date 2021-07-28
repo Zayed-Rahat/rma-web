@@ -1,9 +1,9 @@
 import React, {useState, useEffect } from 'react';
-import Navbar from "../../Navbar";
 import "../../Home.css"
 import "./css/style.css";
 import Pagination from './Pagination';
 import DataLoadReadBlog from './DataLoadReadBlog';
+import NavBar from '../../NavBar';
 function ReadOurBlog () {
 
     const [currentPage, setCurrentPage] = useState(1);
@@ -44,7 +44,7 @@ function ReadOurBlog () {
 
               {/*<!-- Navbar section -->  */}
 
-              <Navbar></Navbar>
+              <NavBar/>
               
               <div class="clearfix"></div>
             </div>
